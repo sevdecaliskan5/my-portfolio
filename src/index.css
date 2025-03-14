@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-gray-800 {
+  background-color: #1a202c;
+}
+
+/* Gece modu */
+.dark .bg-gray-800 {
+  background-color: #2d3748;
+}
+
+.dark .text-white {
+  color: #f7fafc;
+}
+
+.terminal {
+  overflow-y: auto;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
+}
+
+.terminal::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.projects ul li {
+  font-family: monospace;
+}
+
+
