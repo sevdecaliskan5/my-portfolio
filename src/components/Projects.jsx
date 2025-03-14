@@ -17,7 +17,7 @@ const projects = [
       { icon: <FaCartPlus size={20} color="#34D399" /> },
     ],
     link: "https://github.com/sevdecaliskan5",
-    imageUrl: "",
+    imageUrl: "/images/e-ticaret.png",
   },
   {
     title: "PizzaPal",
@@ -32,6 +32,19 @@ const projects = [
     link: "https://github.com/sevdecaliskan5/fsweb-s8-challenge-pizza",
     imageUrl: "/images/PizzaPal.png",
   },
+  {
+    title: "MovieFinder",
+    description:
+      "An app that allows users to search for movies using the OMDB API and view movie details.",
+    technologies: [
+      { icon: <FaReact size={20} color="#61DBFB" /> },
+      { icon: <SiJavascript size={20} color="#F7DF1E" /> },
+      { icon: <SiTailwindcss size={20} color="#38BDF8" /> },
+    ],
+    link: "https://github.com/sevdecaliskan5",
+    imageUrl: "/images/film.png",
+  },
+
   {
     title: "Weather Forecast",
     description:
@@ -68,20 +81,9 @@ const projects = [
       { icon: <SiCss3 size={20} color="#1572B6" /> },
     ],
     link: "https://github.com/sevdecaliskan5",
-    imageUrl: "",
+    imageUrl: "./images/quiz.png",
   },
-  {
-    title: "MovieFinder",
-    description:
-      "An app that allows users to search for movies using the OMDB API and view movie details.",
-    technologies: [
-      { icon: <FaReact size={20} color="#61DBFB" /> },
-      { icon: <SiJavascript size={20} color="#F7DF1E" /> },
-      { icon: <SiTailwindcss size={20} color="#38BDF8" /> },
-    ],
-    link: "https://github.com/sevdecaliskan5",
-    imageUrl: "",
-  },
+
   {
     title: "RecipeSleuth",
     description:
@@ -185,7 +187,7 @@ const Projects = () => {
           </a>
         </div>
       ))}
-      <Skills />
+      {/* <Skills /> */}
     </div>
   );
 };

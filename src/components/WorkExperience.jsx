@@ -14,26 +14,34 @@ const workExperienceData = [
   },
 
   {
+    title: "Front-End Developer Trainee",
+    company: "Coderspace",
+    duration: "10.2024 - 11.2024",
+    details: ["Front-End Okulu"],
+  },
+
+  {
     title: "Site Engineer",
-    company: "Hakbey İnşaat",
+    company: "Hakbey",
     duration: "12.2022 - 02.2024",
+    details: ["İzmir Bayraklı City Hospital"],
     description:
       "Worked for a subcontractor with a team of approximately 500 workers in the T.C. Ministry of Health Public-Private Partnership Program - 2060-Bed İzmir Bayraklı City Hospital Construction Project, overseeing finishing works. Responsibilities included: Managing the construction of metal ceilings, gypsum board ceilings and walls, seismic ceiling applications, structural reinforcements, welding works, ceramic coatings, plastering, and painting. Team management, coordination, and defining production processes. Preparing attendance sheets, official reports, and completing progress payment files.",
   },
 
   {
     title: "Site Manager",
-    company: "Proface Makine İnşaat",
+    company: "Proface",
     duration: "04.2021 - 12.2022",
-    description:
-      "Supervised all construction stages, including excavation, foundation, structural, and finishing works on multiple projects. Managed project scheduling, subcontractors, quantity surveying, material procurement, and recorded invoices in the 'Luca' accounting system.",
+    // description:
+    //   "Supervised all construction stages, including excavation, foundation, structural, and finishing works on multiple projects. Managed project scheduling, subcontractors, quantity surveying, material procurement, and recorded invoices in the 'Luca' accounting system.",
   },
   {
     title: "Civil Engineer",
-    company: "Adalar İnşaat Mimarlık",
+    company: "Adalar ",
     duration: "08.2020 - 01.2021",
-    description:
-      "Responsible for drafting structural projects, inspecting implementation, site measurements for permits, converting drawings in AutoCAD, and handling municipal documentation processes.",
+    // description:
+    //   "Responsible for drafting structural projects, inspecting implementation, site measurements for permits, converting drawings in AutoCAD, and handling municipal documentation processes.",
   },
 ];
 
@@ -48,8 +56,8 @@ const WorkExperience = () => {
             <div className="absolute w-3 h-3 bg-gray-600 rounded-full -left-[46px] top-2"></div>
 
             <h3 className="text-lg font-semibold">{work.title}</h3>
-            <div className="items-center flex">
-              <p className="text-m flex text-gray-400">{work.company}</p> - {" "}
+            <div className="items-center">
+              <p className="text-m flex text-gray-400">{work.company}</p> {" "}
               <p className="text-xs flex text-gray-600"> {work.duration}</p>
             </div>
             {work.details ? (
