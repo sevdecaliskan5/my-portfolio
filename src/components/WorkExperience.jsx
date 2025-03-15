@@ -4,7 +4,7 @@ const workExperienceData = [
   {
     title: "Front-End Developer Trainee",
     company: "Workintech",
-    duration: "12.2024 - 04.2025",
+    duration: "09.2024 - 04.2025",
     details: [
       "Completed 45 coding projects using HTML, CSS, Bootstrap, JavaScript, React, and Tailwind CSS.",
       "Gained experience in responsive web design, performance optimization, and user experience‑focused development.",
@@ -57,7 +57,7 @@ const WorkExperience = () => {
 
             <h3 className="text-lg font-semibold">{work.title}</h3>
             <div className="items-center">
-              <p className="text-m flex text-gray-400">{work.company}</p> {" "}
+              <p className="text-m flex text-gray-400">{work.company}</p>{" "}
               <p className="text-xs flex text-gray-600"> {work.duration}</p>
             </div>
             {work.details ? (

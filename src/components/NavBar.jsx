@@ -9,7 +9,7 @@ const NavBar = () => {
         <li>
           <Link
             to="/"
-            className="text-gray-300 tracking-wider text-lg hover:text-gray-400"
+            className="text-gray-400 tracking-wider text-lg hover:text-gray-500"
           >
             Home
           </Link>
@@ -25,7 +25,7 @@ const NavBar = () => {
         <li>
           <Link
             to="/projects"
-            className="text-gray-300 tracking-wider text-lg hover:text-gray-400"
+            className="text-gray-400 tracking-wider text-lg hover:text-gray-500"
           >
             Projects
           </Link>
@@ -33,7 +33,7 @@ const NavBar = () => {
         <li>
           <Link
             to="/education"
-            className="text-gray-300 tracking-wider text-lg hover:text-gray-400"
+            className="text-gray-400 tracking-wider text-lg hover:text-gray-500"
           >
             Education
           </Link>
@@ -41,7 +41,7 @@ const NavBar = () => {
         <li>
           <Link
             to="/workexperince"
-            className="text-gray-300 tracking-wider text-lg hover:text-gray-400"
+            className="text-gray-400 tracking-wider text-lg hover:text-gray-500"
           >
             Work Experince
           </Link>
@@ -49,7 +49,7 @@ const NavBar = () => {
         <li>
           <Link
             to="/contact"
-            className="text-gray-300 tracking-wider text-lg hover:text-gray-400"
+            className="text-gray-400 tracking-wider text-lg hover:text-gray-500"
           >
             Contact
           </Link>

@@ -17,7 +17,7 @@ const projects = [
       { icon: <FaCartPlus size={20} color="#34D399" /> },
     ],
     link: "https://github.com/sevdecaliskan5",
-    imageUrl: "/images/e-ticaret.png",
+    imageUrl: "./images/",
   },
   {
     title: "PizzaPal",
@@ -27,10 +27,9 @@ const projects = [
       { icon: <FaReact size={20} color="#61DBFB" /> },
       { icon: <SiJavascript size={20} color="#F7DF1E" /> },
       { icon: <SiCss3 size={20} color="#1572B6" /> },
-      { icon: <SiTailwindcss size={20} color="#38BDF8" /> },
     ],
     link: "https://github.com/sevdecaliskan5/fsweb-s8-challenge-pizza",
-    imageUrl: "/images/PizzaPal.png",
+    imageUrl: "/images/pizza.png",
   },
   {
     title: "MovieFinder",
@@ -42,7 +41,7 @@ const projects = [
       { icon: <SiTailwindcss size={20} color="#38BDF8" /> },
     ],
     link: "https://github.com/sevdecaliskan5",
-    imageUrl: "/images/film.png",
+    imageUrl: "",
   },
 
   {
@@ -81,7 +80,7 @@ const projects = [
       { icon: <SiCss3 size={20} color="#1572B6" /> },
     ],
     link: "https://github.com/sevdecaliskan5",
-    imageUrl: "./images/quiz.png",
+    imageUrl: "",
   },
 
   {
@@ -113,12 +112,11 @@ const projects = [
     description:
       "A simple to-do list application where users can add, edit, and delete tasks. It uses LocalStorage to persist data even after the browser is closed.",
     technologies: [
-      { icon: <FaReact size={20} color="#61DBFB" /> },
       { icon: <SiJavascript size={20} color="#F7DF1E" /> },
       { icon: <SiCss3 size={20} color="#1572B6" /> },
     ],
     link: "https://github.com/sevdecaliskan5",
-    imageUrl: "",
+    imageUrl: "./images/note.png",
   },
   {
     title: "CalcMaster",

@@ -345,9 +345,12 @@ const Terminal = () => {
     } else {
       setOutput([
         <p className="text-lg font-mono" key={output.length}>
-          ❌ <span className="text-red-400">Command not recognized!</span> You
-          can see the valid commands by typing{" "}
-          <span className="text-yellow-500">'help'</span>.
+          ❌{" "}
+          <span className="text-red-400 font-mono">
+            Command not recognized!
+          </span>{" "}
+          You can see the valid commands by typing{" "}
+          <span className="text-yellow-500 font-mono">'help'</span>.
         </p>,
       ]);
     }
