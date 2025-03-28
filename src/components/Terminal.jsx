@@ -113,25 +113,25 @@ const Terminal = () => {
       </ul>,
     ],
     projects: () => [
-      <p
-        className="text-gray-300 text-l font-mono mt-2"
-        key="project-title-ecommerce"
-      >
-        🛒 <b className="font-mono">E-Commerce</b>
-      </p>,
-      <ul
-        className="text-gray-400 text-sm font-mono mt-2"
-        key="project-description-ecommerce"
-      >
-        <li className="font-mono">
-          - Front-end only e-commerce product listing page
-        </li>
-        <li className="font-mono">- Product filtering by categories</li>
-        <li className="font-mono">- Fetching product data from a public API</li>
-        <li className="font-mono">
-          - Responsive grid layout for product display
-        </li>
-      </ul>,
+      // <p
+      //   className="text-gray-300 text-l font-mono mt-2"
+      //   key="project-title-ecommerce"
+      // >
+      //   🛒 <b className="font-mono">E-Commerce</b>
+      // </p>,
+      // <ul
+      //   className="text-gray-400 text-sm font-mono mt-2"
+      //   key="project-description-ecommerce"
+      // >
+      //   <li className="font-mono">
+      //     - Front-end only e-commerce product listing page
+      //   </li>
+      //   <li className="font-mono">- Product filtering by categories</li>
+      //   <li className="font-mono">- Fetching product data from a public API</li>
+      //   <li className="font-mono">
+      //     - Responsive grid layout for product display
+      //   </li>
+      // </ul>,
 
       <p
         className="text-gray-300 text-l font-mono mt-4"
@@ -155,25 +155,25 @@ const Terminal = () => {
         </li>
       </ul>,
 
-      <p
-        className="text-gray-300 text-l font-mono mt-4"
-        key="project-title-weather"
-      >
-        🌦️ <b className="font-mono">Weather Forecast</b>
-      </p>,
-      <ul
-        className="text-gray-400 text-sm font-mono mt-2"
-        key="project-description-weather"
-      >
-        <li className="font-mono">
-          - Fetch weather data using the OpenWeatherMap API
-        </li>
-        <li className="font-mono">
-          - Asynchronous data management with React Hooks (useState, useEffect)
-        </li>
-        <li className="font-mono">- Responsive design using Tailwind CSS</li>
-        <li className="font-mono">- Dynamic city search functionality</li>
-      </ul>,
+      // <p
+      //   className="text-gray-300 text-l font-mono mt-4"
+      //   key="project-title-weather"
+      // >
+      //   🌦️ <b className="font-mono">Weather Forecast</b>
+      // </p>,
+      // <ul
+      //   className="text-gray-400 text-sm font-mono mt-2"
+      //   key="project-description-weather"
+      // >
+      //   <li className="font-mono">
+      //     - Fetch weather data using the OpenWeatherMap API
+      //   </li>
+      //   <li className="font-mono">
+      //     - Asynchronous data management with React Hooks (useState, useEffect)
+      //   </li>
+      //   <li className="font-mono">- Responsive design using Tailwind CSS</li>
+      //   <li className="font-mono">- Dynamic city search functionality</li>
+      // </ul>,
 
       <p
         className="text-gray-300 text-l font-mono mt-4"
@@ -199,47 +199,47 @@ const Terminal = () => {
         </li>
       </ul>,
 
-      <p
-        className="text-gray-300 text-l font-mono mt-4"
-        key="project-title-fittrack"
-      >
-        🏋️‍♀️ <b className="font-mono">FitTrack</b>
-      </p>,
-      <ul
-        className="text-gray-400 text-sm font-mono mt-2"
-        key="project-description-fittrack"
-      >
-        <li className="font-mono">
-          - Fitness tracking app for logging workouts and tracking progress
-        </li>
-        <li className="font-mono">
-          - Users can set fitness goals and monitor achievements
-        </li>
-        <li className="font-mono">
-          - Data management using React state and hooks
-        </li>
-        <li className="font-mono">- Responsive design with Tailwind CSS</li>
-      </ul>,
+      // <p
+      //   className="text-gray-300 text-l font-mono mt-4"
+      //   key="project-title-fittrack"
+      // >
+      //   🏋️‍♀️ <b className="font-mono">FitTrack</b>
+      // </p>,
+      // <ul
+      //   className="text-gray-400 text-sm font-mono mt-2"
+      //   key="project-description-fittrack"
+      // >
+      //   <li className="font-mono">
+      //     - Fitness tracking app for logging workouts and tracking progress
+      //   </li>
+      //   <li className="font-mono">
+      //     - Users can set fitness goals and monitor achievements
+      //   </li>
+      //   <li className="font-mono">
+      //     - Data management using React state and hooks
+      //   </li>
+      //   <li className="font-mono">- Responsive design with Tailwind CSS</li>
+      // </ul>,
 
-      <p
-        className="text-gray-300 text-l font-mono mt-4"
-        key="project-title-quizmaster"
-      >
-        🧠 <b className="font-mono">QuizMaster</b>
-      </p>,
-      <ul
-        className="text-gray-400 text-sm font-mono mt-2"
-        key="project-description-quizmaster"
-      >
-        <li className="font-mono">- Multiple-choice quiz application</li>
-        <li className="font-mono">
-          - Users can answer questions and get results
-        </li>
-        <li className="font-mono">
-          - Dynamic question loading with state management
-        </li>
-        <li className="font-mono">- Results display with feedback</li>
-      </ul>,
+      // <p
+      //   className="text-gray-300 text-l font-mono mt-4"
+      //   key="project-title-quizmaster"
+      // >
+      //   🧠 <b className="font-mono">QuizMaster</b>
+      // </p>,
+      // <ul
+      //   className="text-gray-400 text-sm font-mono mt-2"
+      //   key="project-description-quizmaster"
+      // >
+      //   <li className="font-mono">- Multiple-choice quiz application</li>
+      //   <li className="font-mono">
+      //     - Users can answer questions and get results
+      //   </li>
+      //   <li className="font-mono">
+      //     - Dynamic question loading with state management
+      //   </li>
+      //   <li className="font-mono">- Results display with feedback</li>
+      // </ul>,
 
       <p
         className="text-gray-300 text-l font-mono mt-4"
@@ -258,43 +258,43 @@ const Terminal = () => {
           - User-friendly interface with search and filter options
         </li>
       </ul>,
-      <p
-        className="text-gray-300 text-l font-mono mt-4"
-        key="project-title-recipesleuth"
-      >
-        🍽️ <b className="font-mono">RecipeSleuth</b>
-      </p>,
-      <ul
-        className="text-gray-400 text-sm font-mono mt-2"
-        key="project-description-recipesleuth"
-      >
-        <li className="font-mono">- Recipe search app using Edamam API</li>
-        <li className="font-mono">
-          - Users can search recipes based on ingredients
-        </li>
-        <li className="font-mono">
-          - Dynamic recipe display with detailed instructions
-        </li>
-        <li className="font-mono">- Responsive design with Tailwind CSS</li>
-      </ul>,
+      // <p
+      //   className="text-gray-300 text-l font-mono mt-4"
+      //   key="project-title-recipesleuth"
+      // >
+      //   🍽️ <b className="font-mono">RecipeSleuth</b>
+      // </p>,
+      // <ul
+      //   className="text-gray-400 text-sm font-mono mt-2"
+      //   key="project-description-recipesleuth"
+      // >
+      //   <li className="font-mono">- Recipe search app using Edamam API</li>
+      //   <li className="font-mono">
+      //     - Users can search recipes based on ingredients
+      //   </li>
+      //   <li className="font-mono">
+      //     - Dynamic recipe display with detailed instructions
+      //   </li>
+      //   <li className="font-mono">- Responsive design with Tailwind CSS</li>
+      // </ul>,
 
-      <p
-        className="text-gray-300 text-l font-mono mt-4"
-        key="project-title-blogify"
-      >
-        📝 <b className="font-mono">Blogify</b>
-      </p>,
-      <ul
-        className="text-gray-400 text-sm font-mono mt-2"
-        key="project-description-blogify"
-      >
-        <li className="font-mono">
-          - Front-end blog platform with reading and commenting features
-        </li>
-        <li className="font-mono">- Dynamic blog post rendering</li>
-        <li className="font-mono">- Comment system to interact with posts</li>
-        <li className="font-mono">- User-friendly UI with Tailwind CSS</li>
-      </ul>,
+      // <p
+      //   className="text-gray-300 text-l font-mono mt-4"
+      //   key="project-title-blogify"
+      // >
+      //   📝 <b className="font-mono">Blogify</b>
+      // </p>,
+      // <ul
+      //   className="text-gray-400 text-sm font-mono mt-2"
+      //   key="project-description-blogify"
+      // >
+      //   <li className="font-mono">
+      //     - Front-end blog platform with reading and commenting features
+      //   </li>
+      //   <li className="font-mono">- Dynamic blog post rendering</li>
+      //   <li className="font-mono">- Comment system to interact with posts</li>
+      //   <li className="font-mono">- User-friendly UI with Tailwind CSS</li>
+      // </ul>,
 
       <p
         className="text-gray-300 text-l font-mono mt-4"
@@ -314,25 +314,25 @@ const Terminal = () => {
         <li className="font-mono">- Responsive design with Tailwind CSS</li>
       </ul>,
 
-      <p
-        className="text-gray-300 text-l font-mono mt-4"
-        key="project-title-weatherwatch"
-      >
-        🌧️ <b className="font-mono">WeatherWatch</b>
-      </p>,
-      <ul
-        className="text-gray-400 text-sm font-mono mt-2"
-        key="project-description-weatherwatch"
-      >
-        <li className="font-mono">
-          - Static weather application displaying data for a fixed location
-        </li>
-        <li className="font-mono">- Data fetching using OpenWeatherMap API</li>
-        <li className="font-mono">- Simple, clean UI with Tailwind CSS</li>
-        <li className="font-mono">
-          - Displaying weather information such as temperature and conditions
-        </li>
-      </ul>,
+      // <p
+      //   className="text-gray-300 text-l font-mono mt-4"
+      //   key="project-title-weatherwatch"
+      // >
+      //   🌧️ <b className="font-mono">WeatherWatch</b>
+      // </p>,
+      // <ul
+      //   className="text-gray-400 text-sm font-mono mt-2"
+      //   key="project-description-weatherwatch"
+      // >
+      //   <li className="font-mono">
+      //     - Static weather application displaying data for a fixed location
+      //   </li>
+      //   <li className="font-mono">- Data fetching using OpenWeatherMap API</li>
+      //   <li className="font-mono">- Simple, clean UI with Tailwind CSS</li>
+      //   <li className="font-mono">
+      //     - Displaying weather information such as temperature and conditions
+      //   </li>
+      // </ul>,
     ],
   };
 

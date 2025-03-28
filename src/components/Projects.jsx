@@ -6,19 +6,19 @@ import { WiDaySunny } from "react-icons/wi";
 import Skills from "./Skills";
 
 const projects = [
-  {
-    title: "E-Commerce",
-    description:
-      "A front-end only e-commerce product listing page, where users can browse and filter products by categories. The app fetches product data from a public API and displays it in a responsive grid layout.",
-    technologies: [
-      { icon: <FaReact size={20} color="#61DBFB" /> },
-      { icon: <SiCss3 size={20} color="#1572B6" /> },
-      { icon: <SiTailwindcss size={20} color="#38BDF8" /> },
-      { icon: <FaCartPlus size={20} color="#34D399" /> },
-    ],
-    link: "https://github.com/sevdecaliskan5",
-    imageUrl: "./images/",
-  },
+  // {
+  //   title: "E-Commerce",
+  //   description:
+  //     "A front-end only e-commerce product listing page, where users can browse and filter products by categories. The app fetches product data from a public API and displays it in a responsive grid layout.",
+  //   technologies: [
+  //     { icon: <FaReact size={20} color="#61DBFB" /> },
+  //     { icon: <SiCss3 size={20} color="#1572B6" /> },
+  //     { icon: <SiTailwindcss size={20} color="#38BDF8" /> },
+  //     { icon: <FaCartPlus size={20} color="#34D399" /> },
+  //   ],
+  //   link: "https://github.com/sevdecaliskan5",
+  //   imageUrl: "./images/",
+  // },
   {
     title: "PizzaPal",
     description:
@@ -44,69 +44,69 @@ const projects = [
     imageUrl: "",
   },
 
-  {
-    title: "Weather Forecast",
-    description:
-      "A weather forecast application that provides real-time weather data based on user location. It fetches data from an external API and presents it in an easy-to-read format.",
-    technologies: [
-      { icon: <FaReact size={20} color="#61DBFB" /> },
-      { icon: <SiJavascript size={20} color="#F7DF1E" /> },
-      { icon: <SiTailwindcss size={20} color="#38BDF8" /> },
-      { icon: <WiDaySunny size={20} color="#FFCC00" /> },
-    ],
-    link: "https://github.com/sevdecaliskan5",
-    imageUrl: "",
-  },
+  // {
+  //   title: "Weather Forecast",
+  //   description:
+  //     "A weather forecast application that provides real-time weather data based on user location. It fetches data from an external API and presents it in an easy-to-read format.",
+  //   technologies: [
+  //     { icon: <FaReact size={20} color="#61DBFB" /> },
+  //     { icon: <SiJavascript size={20} color="#F7DF1E" /> },
+  //     { icon: <SiTailwindcss size={20} color="#38BDF8" /> },
+  //     { icon: <WiDaySunny size={20} color="#FFCC00" /> },
+  //   ],
+  //   link: "https://github.com/sevdecaliskan5",
+  //   imageUrl: "",
+  // },
 
-  {
-    title: "FitTrack",
-    description:
-      "A fitness tracking app that allows users to log workouts, track progress, and set goals.",
-    technologies: [
-      { icon: <FaReact size={20} color="#61DBFB" /> },
-      { icon: <SiJavascript size={20} color="#F7DF1E" /> },
-      { icon: <SiTailwindcss size={20} color="#38BDF8" /> },
-    ],
-    link: "https://github.com/sevdecaliskan5",
-    imageUrl: "",
-  },
-  {
-    title: "QuizMaster",
-    description:
-      "A quiz application that allows users to answer multiple-choice questions and get their results at the end.",
-    technologies: [
-      { icon: <FaReact size={20} color="#61DBFB" /> },
-      { icon: <SiJavascript size={20} color="#F7DF1E" /> },
-      { icon: <SiCss3 size={20} color="#1572B6" /> },
-    ],
-    link: "https://github.com/sevdecaliskan5",
-    imageUrl: "",
-  },
+  // {
+  //   title: "FitTrack",
+  //   description:
+  //     "A fitness tracking app that allows users to log workouts, track progress, and set goals.",
+  //   technologies: [
+  //     { icon: <FaReact size={20} color="#61DBFB" /> },
+  //     { icon: <SiJavascript size={20} color="#F7DF1E" /> },
+  //     { icon: <SiTailwindcss size={20} color="#38BDF8" /> },
+  //   ],
+  //   link: "https://github.com/sevdecaliskan5",
+  //   imageUrl: "",
+  // },
+  // {
+  //   title: "QuizMaster",
+  //   description:
+  //     "A quiz application that allows users to answer multiple-choice questions and get their results at the end.",
+  //   technologies: [
+  //     { icon: <FaReact size={20} color="#61DBFB" /> },
+  //     { icon: <SiJavascript size={20} color="#F7DF1E" /> },
+  //     { icon: <SiCss3 size={20} color="#1572B6" /> },
+  //   ],
+  //   link: "https://github.com/sevdecaliskan5",
+  //   imageUrl: "",
+  // },
 
-  {
-    title: "RecipeSleuth",
-    description:
-      "A recipe search app where users can find recipes using the Edamam API based on ingredients they input.",
-    technologies: [
-      { icon: <FaReact size={20} color="#61DBFB" /> },
-      { icon: <SiJavascript size={20} color="#F7DF1E" /> },
-      { icon: <SiTailwindcss size={20} color="#38BDF8" /> },
-    ],
-    link: "https://github.com/sevdecaliskan5",
-    imageUrl: "",
-  },
-  {
-    title: "Blogify",
-    description:
-      "A front-end blog platform where users can read blog posts and leave comments. The application displays blog posts dynamically and allows users to interact with the content.",
-    technologies: [
-      { icon: <FaReact size={20} color="#61DBFB" /> },
-      { icon: <SiTailwindcss size={20} color="#38BDF8" /> },
-      { icon: <SiJavascript size={20} color="#F7DF1E" /> },
-    ],
-    link: "https://github.com/sevdecaliskan5",
-    imageUrl: "",
-  },
+  // {
+  //   title: "RecipeSleuth",
+  //   description:
+  //     "A recipe search app where users can find recipes using the Edamam API based on ingredients they input.",
+  //   technologies: [
+  //     { icon: <FaReact size={20} color="#61DBFB" /> },
+  //     { icon: <SiJavascript size={20} color="#F7DF1E" /> },
+  //     { icon: <SiTailwindcss size={20} color="#38BDF8" /> },
+  //   ],
+  //   link: "https://github.com/sevdecaliskan5",
+  //   imageUrl: "",
+  // },
+  // {
+  //   title: "Blogify",
+  //   description:
+  //     "A front-end blog platform where users can read blog posts and leave comments. The application displays blog posts dynamically and allows users to interact with the content.",
+  //   technologies: [
+  //     { icon: <FaReact size={20} color="#61DBFB" /> },
+  //     { icon: <SiTailwindcss size={20} color="#38BDF8" /> },
+  //     { icon: <SiJavascript size={20} color="#F7DF1E" /> },
+  //   ],
+  //   link: "https://github.com/sevdecaliskan5",
+  //   imageUrl: "",
+  // },
   {
     title: "ToDoMaster",
     description:
@@ -130,18 +130,18 @@ const projects = [
     link: "https://github.com/sevdecaliskan5m",
     imageUrl: "",
   },
-  {
-    title: "WeatherWatch",
-    description:
-      "A static weather application that shows weather information for a fixed location using the OpenWeatherMap API. It fetches data and displays it on the page.",
-    technologies: [
-      { icon: <SiCss3 size={20} color="#1572B6" /> },
-      { icon: <SiJavascript size={20} color="#F7DF1E" /> },
-      { icon: <WiDaySunny size={20} color="#FFCC00" /> },
-    ],
-    link: "https://github.com/sevdecaliskan5",
-    imageUrl: "",
-  },
+  // {
+  //   title: "WeatherWatch",
+  //   description:
+  //     "A static weather application that shows weather information for a fixed location using the OpenWeatherMap API. It fetches data and displays it on the page.",
+  //   technologies: [
+  //     { icon: <SiCss3 size={20} color="#1572B6" /> },
+  //     { icon: <SiJavascript size={20} color="#F7DF1E" /> },
+  //     { icon: <WiDaySunny size={20} color="#FFCC00" /> },
+  //   ],
+  //   link: "https://github.com/sevdecaliskan5",
+  //   imageUrl: "",
+  // },
 ];
 
 const Projects = () => {
